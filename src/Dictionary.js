@@ -15,7 +15,6 @@ export default function Dictionary() {
   }
 
   function handleResponse(response) {
-    console.log(response);
     setResults(response.data[0]);
   }
 
