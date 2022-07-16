@@ -9,11 +9,13 @@ export default function Meaning({ meaning }) {
       {meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            <strong>Definition: </strong>
-            {definition.definition}
-            <br />
-            <Example example={definition.example} />
-            <Synonyms synonyms={definition.synonyms} />
+            <section>
+              <strong>Definition: </strong>
+              {definition.definition}
+              <br />
+              <Example example={definition.example} />
+              <Synonyms synonyms={definition.synonyms} />
+            </section>
           </div>
         );
       })}
