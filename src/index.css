@@ -1,4 +1,8 @@
 body {
   margin: 10px;
-  background-color: rgb(195, 194, 185, 0.7);
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(195, 194, 185, 0.7),
+    rgba(97, 193, 167, 0.5)
+  );
 }
