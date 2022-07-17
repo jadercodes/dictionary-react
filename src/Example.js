@@ -5,7 +5,7 @@ export default function Example({ example }) {
     return (
       <div className="Example">
         <strong>Example: </strong>
-        <em>{example}</em>
+        <span>{example}</span>
       </div>
     );
   } else {

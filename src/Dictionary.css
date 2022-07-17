@@ -1,15 +1,17 @@
 .Dictionary form {
   border: 1px solid black;
   border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 10px;
   margin: 10px;
-  background-color: rgb(185, 123, 161, 0.5);
+  background-color: rgba(206, 164, 190, 0.5);
 }
 
 .Dictionary input {
   width: 100%;
   background-color: rgba(97, 193, 167, 0.4);
   border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   line-height: 30px;
   padding: 0px 10px;
 }
