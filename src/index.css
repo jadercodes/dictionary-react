@@ -5,5 +5,7 @@ body {
     rgba(195, 194, 185, 0.7),
     rgba(97, 193, 167, 0.5)
   );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: monospace;
 }
